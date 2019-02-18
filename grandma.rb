@@ -2,6 +2,8 @@
  speak_to_grandma = gets.chomp
  if speak_to_grandma == "I love you grandma!".upcase
    puts "I love you too pumpkin!".upcase
+ else 
+   puts "huh?! speak up, sonny!"
   end 
 end
 # Whatever you say to grandma, she should respond with
