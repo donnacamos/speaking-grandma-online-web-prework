@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma
- if "I love you grandma!".upcase
+ speak_to_grandma = gets.chomp
+ if speak_to_grandma == "I love you grandma!".upcase
    puts "I love you too pumpkin!".upcase
   end 
 end
