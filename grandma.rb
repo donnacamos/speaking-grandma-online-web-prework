@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma
- if puts "I love you grandma!".upcase
-   return "I love you too pumpkin!".upcase
+ if "I love you grandma!".upcase
+   puts "I love you too pumpkin!".upcase
   end 
 end
 # Whatever you say to grandma, she should respond with
